@@ -1,0 +1,43 @@
+b{
+    color: white;
+
+}
+
+.h2{
+    text-align: center;
+  }
+
+.banner{
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)), url('./image/banner.jpg') ;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.content-bawah{
+    background-color: rgba(0, 0, 0,0.7);
+    width: 100;
+}
+
+i{
+    color: red;
+
+}
+
+.carousel-inner{
+    height: 400px;
+}
+
+.mt-n1 {
+    margin-top: -1.1rem !important;
+    margin-left: -1.1rem !important;
+    margin-right: -2rem !important;
+  }
+
+  .opacity img {
+    opacity: 30;
+  }
+
+  .atastext{
+    object-position: center;
+  }

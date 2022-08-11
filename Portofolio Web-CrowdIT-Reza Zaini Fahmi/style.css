@@ -1,0 +1,61 @@
+.hero {
+    height: 100vh;  
+    background: linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)), url('./image/banner.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+.name {
+  color: #fcfafa;
+  position: relative;
+  top: 36%;
+  padding: 6px;
+}
+h1 {
+  color: rgb(100, 162, 216);
+}
+.bingkai {
+  padding-top: 17%;
+ 
+}
+
+.about {
+  background-image: linear-gradient(black,rgb(23, 22, 22),rgb(52, 50, 50),rgb(249, 249, 249))  ;
+}
+h5{
+  color:rgb(100, 162, 216) ;
+}
+
+.tools {
+  background-image: linear-gradient(rgb(249, 249, 249),#fcfafa,#fcfafa,#fcfafa)  ;
+  
+}
+.project {
+  background-image: linear-gradient(rgb(249, 249, 249),rgb(52, 50, 50),rgb(52, 50, 50),rgb(23, 22, 22));
+}
+
+.contact {
+  background-image: linear-gradient(rgb(23, 22, 22),rgb(1, 1, 1),rgb(0, 0, 0));
+}
+
+svg{
+  cursor: pointer;
+}
+svg:nth-child(1){
+  position: relative;
+  color: black;
+}
+svg:hover:nth-child(1){
+  animation: ro 2s linear infinite;
+}
+.footer {
+  background-color: rgb(100, 162, 216);
+}
+@keyframes ro {
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
